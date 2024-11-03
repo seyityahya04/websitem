@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: url(resim8.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+}
+
+.container .navbar {
+    width: 100;
+    height: 70px;
+    background: rgba(246, 246, 246, 0.837)
+}
+
+.navbar .logo a {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: rgb(203, 110, 18);
+}
+
+.navbar .logo {
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 20px;
+
+}
+
+.navbar ul {
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar ul li {
+
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+
+}
+
+.navbar ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: Roboto;
+    transition: .5s;
+
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover {
+    background: #d3610f;
+    border-radius: 2px;
+}
+
+.container .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    user-select: none;
+
+}
+
+.center h1 {
+
+    color: aliceblue;
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+
+
+}
+
+.center h2 {
+    color: aliceblue;
+    font-size: 50px;
+    font-weight: bold;
+    width: 885px;
+    margin-top: 10px;
+    text-align: center;
+
+}
+
+.center .buttons {
+    margin: 35px 280px;
+}
+
+.buttons button {
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(242, 97, 25);
+    background: rgba#d25816;
+    border: solid 1px #120906;
+    cursor: pointer;
+    outline: none;
+    border-radius: 25px;
+    transition: .5s;
+}
+
+.buttons button:hover {
+    background: floralwhite;
+}
+
+
+h1{
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 100px;
+    color: rgb(244, 106, 14);
+
+
+}
+
+h2{
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 80px;
+    color: aliceblue;
+    
+
+
+}
